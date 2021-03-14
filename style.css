@@ -11,21 +11,36 @@ h1  {
     font-size: 66px;
 }
 
-
+nav {
+    display: inline;
+    text-align: center;
+}
 
 li{
     display: inline-block;
     margin: 0px 60px;
     padding: 10px;
+    border-radius: 5px;
     
 }
 
 a {
     text-decoration: none;
+    font-size: 18px;
 }
 
 
 li:hover {
-    background-color: blue;
+    background-color: white;
 }
 
+div .image {
+    display: inline;
+}
+
+img {
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+    width: 200px;
+}
