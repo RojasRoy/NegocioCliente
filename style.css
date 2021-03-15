@@ -16,17 +16,23 @@ nav {
     text-align: center;
 }
 
+ul{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(153, 208, 245);
+}
+
 li{
     display: inline-block;
     margin: 0px 60px;
     padding: 10px;
     border-radius: 5px;
-    
 }
 
 a {
     text-decoration: none;
     font-size: 18px;
+    color: black;
 }
 
 
@@ -34,13 +40,17 @@ li:hover {
     background-color: white;
 }
 
-div .image {
-    display: inline;
+div {
+    display: inline-block;
 }
 
 img {
-    margin: 0px;
+    margin: 10px 47px;
     padding: 0px;
     display: inline;
-    width: 200px;
+    width: 400px;
+}
+
+img:hover {
+    opacity: 0.5;
 }
