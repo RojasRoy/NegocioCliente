@@ -17,7 +17,7 @@ nav {
 }
 
 ul{
-    margin: 0px;
+    margin: 0px 0px 10px;
     padding: 0px;
     background-color: rgb(153, 208, 245);
 }
@@ -31,7 +31,7 @@ li{
 
 a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
 }
 
@@ -40,12 +40,13 @@ li:hover {
     background-color: white;
 }
 
-div {
+div.image{
     display: inline-block;
+    margin: 0px;
 }
 
 img {
-    margin: 10px 47px;
+    margin: 0px 47px 0px;
     padding: 0px;
     display: inline;
     width: 400px;
@@ -53,4 +54,23 @@ img {
 
 img:hover {
     opacity: 0.5;
+}
+
+div.seccion {
+    display: block;
+    margin: 0px;
+    padding: 0PX;
+    /*background-color: blue;
+    height: 50px;*/
+}
+
+span {
+    display: inline-block;
+    margin: 0px 47px;
+    padding: 0px;
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: blueviolet;
 }
