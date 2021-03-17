@@ -16,7 +16,7 @@ nav {
     text-align: center;
 }
 
-ul{
+ul.menu{
     margin: 0px 0px 10px;
     padding: 0px;
     background-color: rgb(153, 208, 245);
@@ -36,7 +36,7 @@ a {
 }
 
 
-li:hover {
+li.menu_li:hover {
     background-color: white;
 }
 
@@ -78,6 +78,14 @@ span {
 div.menu-items{
     display: block;
     background-color: rgb(128, 0, 90);
-    width: 25%;
+    width: 15%;
     height: 500px;
+}
+
+li.item{
+    background-color: tomato;
+    display: inline-block;
+    margin: 20px;
+    width: 100px;
+    font-size: 18px;
 }
